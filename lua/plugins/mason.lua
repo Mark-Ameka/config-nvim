@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- Customize Mason
 
 ---@type LazySpec
@@ -11,17 +9,42 @@ return {
     opts = {
       -- Make sure to use the names found in `:Mason`
       ensure_installed = {
-        -- install language servers
-        "lua-language-server",
+        -- php plugins
+        "intelephense",
+        "php-cs-fixer",
+        "phpcs",
 
-        -- install formatters
-        "stylua",
+        -- formatters
+        "prettierd",
 
-        -- install debuggers
+        -- docker
+        "docker-compose-language-service",
+        "dockerfile-language-server",
+
+        -- yawascript
+        "emmet-ls",
+        "eslint_d",
+        "typescript-language-server",
+        "tailwindcss-language-server",
+
+        -- python
+        "black",
         "debugpy",
+        "python-lsp-server",
 
-        -- install any other package
+        -- utils / lua
+        "bash-language-server",
+        "lua-language-server",
+        "selene",
+        "shfmt",
+        "stylua",
         "tree-sitter-cli",
+
+        -- reserved
+        -- "prisma-language-server",
+        -- "blade-formatter",
+        -- "vtsls",
+        -- "laravel-ls",
       },
     },
   },

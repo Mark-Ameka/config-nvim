@@ -1,0 +1,18 @@
+return {
+  "sphamba/smear-cursor.nvim",
+  opts = {
+    stiffness = 0.5,
+    trailing_stiffness = 0.5,
+    matrix_pixel_threshold = 0.5,
+
+    -- Cyan Smear
+    -- cursor_color = "#05859E",
+    -- stiffness = 0.3,
+    -- trailing_stiffness = 0.1,
+    -- damping = 0.5,
+    -- trailing_exponent = 5,
+    -- never_draw_over_target = true,
+    -- hide_target_hack = true,
+    -- gamma = 1,
+  },
+}
