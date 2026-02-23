@@ -18,5 +18,7 @@ return {
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
+
+  { import = "astrocommunity.color.transparent-nvim" },
   -- import/override with your plugins folder
 }

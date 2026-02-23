@@ -11,11 +11,11 @@ return {
       ensure_installed = {
         -- php plugins
         "intelephense",
-        "php-cs-fixer",
         "phpcs",
 
         -- formatters
         "prettierd",
+        -- "php-cs-fixer",
 
         -- docker
         "docker-compose-language-service",
@@ -41,7 +41,7 @@ return {
         "tree-sitter-cli",
 
         -- reserved
-        -- "prisma-language-server",
+        "prisma-language-server",
         -- "blade-formatter",
         -- "vtsls",
         -- "laravel-ls",
